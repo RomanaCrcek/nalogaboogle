@@ -18,6 +18,14 @@
     
 }
 
+input
+{
+    width: 290px;
+    height: 30px;
+    margin: -38px;
+    
+}
+
 .body
 {
     height: 300px;
@@ -49,14 +57,30 @@
 
 .button {
     position:relative;
-    /*padding:6px 15px;*/
-    left:-8px;
+    left:35px;
     border:1px solid;
     display: inline-block;
+    
 }
 
-.footer 1
+.footer
 {
-    
-    display: inline-block;
+    bottom: 0;
+    position: relative;
+    background-color: antiquewhite;
+    border-style:none;
+        
 }
+
+#footer-left
+    {
+   float: left;
+    
+    }
+
+#footer-right
+    {
+   float: right;
+     
+    }
+
