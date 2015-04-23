@@ -46,6 +46,7 @@ input
     height: 50px;
     width: 150px auto;
     padding-left: 10px;
+    margin:0;
 }
 
 .search
@@ -69,6 +70,8 @@ input
     position: relative;
     background-color: antiquewhite;
     border-style:none;
+    position: absolute; 
+    width: 100%;
         
 }
 
