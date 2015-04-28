@@ -1,0 +1,89 @@
+.navigation  {
+    background-color: white;
+    height: 20px;
+    width: auto;
+    text-align: right;
+}
+
+.main {
+    position:relative;
+    height: 450px;
+    width: 600px;
+    background-color: white;
+    /* postavitev na sredino stran zaslona */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding: 100px;
+    
+}
+
+input
+{
+    width: 290px;
+    height: 30px;
+    margin: -38px;
+    
+}
+
+.body
+{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    /* premik na poljuben del zaslona */
+    position: relative;
+    left: 150px;
+    top: 130px;
+
+}
+
+.logo
+{ 
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    height: 50px;
+    width: 150px auto;
+    padding-left: 10px;
+    margin:0;
+}
+
+.search
+{
+    padding:130px 40px;
+    height: 20px;
+    width: auto;
+}
+
+.button {
+    position:relative;
+    left:35px;
+    border:1px solid;
+    display: inline-block;
+    
+}
+
+.footer
+{
+    bottom: 0;
+    position: relative;
+    background-color: antiquewhite;
+    border-style:none;
+    position: absolute; 
+    width: 100%;
+        
+}
+
+#footer-left
+    {
+   float: left;
+    
+    }
+
+#footer-right
+    {
+   float: right;
+     
+    }
+
